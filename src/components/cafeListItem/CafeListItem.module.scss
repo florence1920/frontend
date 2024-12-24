@@ -1,0 +1,20 @@
+.cafeItem {
+  padding: 16px;
+  height: 40px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  .cafeItem__link {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    .cafeItem__info {
+      line-height: 140%;
+      .cafeItem__name {
+        color: #000;
+      }
+      .cafeItem__address {
+        color: #767676;
+        font-size: 12px;
+      }
+    }
+  }
+}
